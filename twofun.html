@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JhnS</title>
+</head>
+<body>
+<p> first f</p>
+<p id="fun1"></p>
+<p> second f</p>
+<p id="fun2"></p>
+<script>
+function fun1(num1, num2)
+{
+
+var res=num1*num2;
+//document.write("result:"+res);
+return res;
+}
+var result=fun1(34,45);
+function fun2(num1, num2)
+{
+var res=num1*num2;
+//document.write("result:"+res);
+return res;
+}
+var result1=fun1(34,45);
+var result2=fun2(33,44);
+document.getElementById("fun1").innerHTML=result1;
+document.getElementById("fun2").innerHTML=result2;
+</script>
+</body>
+</html>
